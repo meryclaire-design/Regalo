@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz frasi</title>
+    <link rel="icon" href="foto.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Dark Section (Header) -->
+    <div class="top-section" style="height: auto; padding-bottom: 2rem;">
+        <div class="bg-hearts">
+            <div class="heart h1 static"></div>
+            <div class="heart h2"></div>
+            <div class="heart h3 static"></div>
+            <div class="heart h4"></div>
+            <div class="heart h5"></div>
+            <div class="heart h6"></div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="index.html#minigames">Mini Games</a>
+        </nav>
+        <h1 class="hero-title" style="margin: 2rem 0;">Quiz frasi</h1>
+        <p><i>Quante delle nostre frasi riesci a completare?</i></p>
+    </div>
+
+    <!-- Content -->
+    <div class="content-wrapper">
+        <div class="bg-hearts">
+            <div class="heart h1 static"></div>
+            <div class="heart h2"></div>
+            <div class="heart h3 static"></div>
+            <div class="heart h4"></div>
+            <div class="heart h5"></div>
+            <div class="heart h6"></div>
+        </div>
+        <p class="section-text">
+            Ho riportato alcune delle frasi o parole più utilizzate da noi all'interno della nostra relazione.
+            Alcune sono molto semplici, altre sono mooolto difficili. <br>
+            Se le indovini tutte riceverai un <i>super <b>bacino sprofondino</b></i> dalla tua fidanzata! <br>
+            N.B. Ci sono anche frasi che riguardano le nostre routine o delle cose che siamo solite fare all'interno
+            della relazione!
+        </p>
+        <div class="divider" style="margin-top: 1rem;"></div>
+        <div class="phrases-container">
+            <div class="quiz-item">
+                <span class="quiz-label">1. Che tipo di cibo buonissimo sei? piccolo</span>
+                <input type="text" class="quiz-input" id="q1">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">2. E io che tipo di cibo buonissimo sono? piccolo</span>
+                <input type="text" class="quiz-input" id="q2">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">3. Bacino?</span>
+                <input type="text" class="quiz-input" id="q3">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">4. Das</span>
+                <input type="text" class="quiz-input" id="q4">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">5. Bombo</span>
+                <input type="text" class="quiz-input" id="q5">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">6. Cheeks of</span>
+                <input type="text" class="quiz-input" id="q6">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">7. I'm not chonky,</span>
+                <input type="text" class="quiz-input" id="q7">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">8. You are</span>
+                <input type="text" class="quiz-input" id="q8">
+                <span class="quiz-label">(and me too eheh)</span>
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">9. Hai sempre voglia di farlo a me</span>
+                <input type="text" class="quiz-input" id="q9">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">10. Lo fai per ricaricare le tue energie</span>
+                <input type="text" class="quiz-input" id="q10">
+            </div>
+            <div class="quiz-item">
+                <span class="quiz-label">11. Fai</span>
+                <input type="text" class="quiz-input" id="q11">
+                <span class="quiz-label">ma</span>
+                <input type="text" class="quiz-input" id="q12">
+            </div>
+        </div>
+        <p><b>FRASE BONUS</b></p>
+        <div style="margin-top: 1rem;"></div>
+        <div class="phrases-container">
+            <div class="quiz-item">
+                <span class="quiz-label">&Egrave; il nostro piatto after sex</span>
+                <input type="text" class="quiz-input" id="q_bonus">
+            </div>
+            <br>
+            <div style="margin-top: 2rem; text-align: center;">
+                <button id="check-quiz" class="cta-button" style="background:#232323; color:#fff;">Verifica</button>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+        <script src="quiz.js"></script>
+</body>
+
+</html>

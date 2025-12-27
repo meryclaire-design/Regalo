@@ -226,7 +226,7 @@ body {
 .content-wrapper {
     background-color: #f4f4f4;
     /* Gray background for entire lower page */
-    padding: 3rem 2rem;
+    padding: 6rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,7 +238,7 @@ body {
     font-family: var(--font-heading);
     font-size: 1.5rem;
     color: var(--text-dark);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -271,12 +271,12 @@ body {
     max-width: 800px;
     height: 1px;
     background-color: #666;
-    margin: 2rem 0;
+    margin: 5rem 0;
 }
 
 .intro-section {
-    padding-bottom: 1rem;
-    /* Reduced from 2rem to bring divider closer */
+    padding-bottom: 2rem;
+    /* Reduced from 6rem to bring divider closer */
 }
 
 .minigames-section {
@@ -288,7 +288,7 @@ body {
 
 .minigames-section .divider {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     /* Remove top margin from divider */
 }
 
@@ -300,7 +300,7 @@ body {
 
 .PhotoGallery-section .divider {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     /* Reduce space below divider */
 }
 
@@ -309,7 +309,7 @@ body {
    ================== */
 .carousel-container {
     width: 90%;
-    margin: 1.5rem auto 0;
+    margin: 3rem auto 0;
     /* consistent top spacing and centered */
     overflow: hidden;
     position: relative;
@@ -395,9 +395,9 @@ body {
     gap: 2rem;
     max-width: 1000px;
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     /* consistent top spacing */
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .grid-item {
@@ -586,12 +586,14 @@ body {
         font-size: 0.85rem;
         line-height: 1.6;
         padding: 0 1rem;
+        margin-bottom: 1rem;
     }
 
     /* Section title */
     .section-title {
         font-size: 1.3rem;
         padding: 0 1rem;
+        margin-bottom: 0.8rem;
     }
 
     /* Photo gallery responsive */
@@ -681,7 +683,8 @@ body {
     /* Section title smaller */
     .section-title {
         font-size: 1.1rem;
-        margin-bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
     }
 
     /* Photo gallery smaller for phones */
@@ -711,7 +714,7 @@ body {
 
     /* Section padding reduction */
     .content-wrapper {
-        padding: 3rem 1rem;
+        padding: 1.5rem 1rem;
     }
 
     /* Navigation even smaller */
@@ -790,15 +793,17 @@ body {
         font-size: 0.75rem;
     }
 
-    /* Divider */
     .divider {
-        margin: 2rem 0;
+        margin: 1rem 0 0.2rem 0;
+        /* Reduced margin below divider */
     }
 
     .PhotoGallery-section .divider,
     .minigames-section .divider {
-        margin-bottom: 1rem;
+        margin-bottom: 0.2rem;
     }
+
+
 
     /* Top section padding */
     .top-section {

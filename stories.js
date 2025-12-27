@@ -11,7 +11,7 @@ const storyData = {
                     { "text": "Ordiniamo qualcosa di buono ", "next": "ordinare" },
                     { "text": "Cuciniamo insieme con la musica ", "next": "cucinare" },
                     { "text": "Doccia calda insieme ", "next": "doccia" },
-                    { "text": "Andiamo fuori a cena ", "next": "cenare_fuori" },
+                    { "text": "Andiamo fuori a cena ", "next": "cenare_fuori" }
                 ]
             },
             "ordinare": {
@@ -79,7 +79,7 @@ const storyData = {
                 ]
             },
             "divano": {
-                "text": "Siamo sul divano, abbracciati sotto la copertina. È il momento perfetto. ",
+                "text": "Siamo sul divano, abbracciate sotto la copertina. È il momento perfetto. ",
                 "choices": [
                     { "text": "Ci addormentiamo coccolati ", "next": "finale_nanna" },
                     { "text": "Chiacchieriamo fino a tardi ", "next": "finale_parole" }
@@ -104,7 +104,7 @@ const storyData = {
                 "choices": [
                     { "text": "Un buon panino con un sacco di patatine fritte ", "next": "siamo_sazie" },
                     { "text": "Una buona tagliata di carne e un sacco di insalata ", "next": "siamo_sazie" },
-                    { "text": "Una delle due scelte precedenti + un sacco di antipasti da condividere", "next": "siamo_sazie" },
+                    { "text": "Una delle due scelte precedenti + un sacco di antipasti da condividere", "next": "siamo_sazie" }
                 ]
             },
             "kebabbaro": {
@@ -121,14 +121,14 @@ const storyData = {
                     { "text": "Preferisco stare in macchina a parlare un po' insieme ", "next": "finale_dolce" }
                 ]
             },
-            "cartone_Diseny": {
+            "cartone_Disney": {
                 "text": "Che cartone Disney scegliamo?",
                 "choices": [
                     { "text": "Robin Hood", "next": "finale_dolce" },
                     { "text": "La bella e la bestia", "next": "finale_dolce" },
                     { "text": "Aladin", "next": "finale_dolce" },
                     { "text": "Lilli e il vagabondo", "next": "finale_dolce" },
-                    { "text": "La carica dei 101", "next": "finale_dolce" },
+                    { "text": "La carica dei 101", "next": "finale_dolce" }
                 ]
             },
             "serie_TV_crime": {
@@ -137,7 +137,7 @@ const storyData = {
                     { "text": "Una che faccia anche un po' paura", "next": "finale_intenso" },
                     { "text": "Una con dei fighi assurdi", "next": "finale_intenso" },
                     { "text": "Una ignorante proprio come piace a noi", "next": "finale_intenso" },
-                    { "text": "Una che ci tenga sulle spine fino alla fine", "next": "finale_intenso" },
+                    { "text": "Una che ci tenga sulle spine fino alla fine", "next": "finale_intenso" }
                 ]
             },
             "studio_Ghibli": {
@@ -147,7 +147,7 @@ const storyData = {
                     { "text": "Il mio vicino Totoro", "next": "finale_dolce" },
                     { "text": "Il castello errante di Howl", "next": "finale_dolce" },
                     { "text": "Porco Rosso", "next": "finale_dolce" },
-                    { "text": "Arietty", "next": "finale_dolce" },
+                    { "text": "Arietty", "next": "finale_dolce" }
                 ]
             },
             "serie_magica": {
@@ -157,7 +157,7 @@ const storyData = {
                     { "text": "Harry Potter", "next": "finale_magico" },
                     { "text": "The Witcher", "next": "finale_magico" },
                     { "text": "Il Signore degli Anelli", "next": "finale_magico" },
-                    { "text": "Streghe", "next": "finale_magico" },
+                    { "text": "Streghe", "next": "finale_magico" }
                 ]
             },
 
@@ -175,7 +175,7 @@ const storyData = {
                 "choices": []
             },
             "finale_nanna": {
-                "text": "Le nanne ci raggiungono e ci addormentano abbracciate, proprio come piace a noi. ",
+                "text": "Le nanne ci raggiungono e ci addormentiamo abbracciate, proprio come piace a noi. ",
                 "choices": []
             },
             "finale_segreto": {
@@ -222,6 +222,25 @@ const storyData = {
                 "choices": [
                     { "text": "Andiamo a berci una buona cioccolata calda", "next": "cioccolata" },
                     { "text": "Super battaglia di palle di neve in arrivoo", "next": "battaglia" }
+                ]
+            },
+            "battaglia": {
+                "text": "La battaglia è stata molto intensa. Fa molto freddo qui fuori. Ti va di cercare un posto caldino?",
+                "choices": [
+                    { "text": "Si, sarebbe bellissimo", "next": "cioccolata" },
+                    { "text": "Torniamo a casa?", "next": "casa" }
+                ]
+            },
+            "cioccolata": {
+                "text": "La cioccolata era buonissima. Ora siamo più calde e ci riposiamo un po'",
+                "choices": [
+                    { "text": "Il nostro tavolino è proprio davanti al caminetto", "next": "casa" },
+                ]
+            },
+            "casa": {
+                "text": "Siamo tornate a casa. Dopo una doccia calda ci siamo addormentate abbracciate sul divano",
+                "choices": [
+                    { "text": "È stata una bellissima giornata", "next": "ritorno" },
                 ]
             },
             "film_serie": {

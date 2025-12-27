@@ -681,7 +681,7 @@ body {
     /* Section title smaller */
     .section-title {
         font-size: 1.1rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     /* Photo gallery smaller for phones */
@@ -711,7 +711,7 @@ body {
 
     /* Section padding reduction */
     .content-wrapper {
-        padding: 4rem 1rem;
+        padding: 3rem 1rem;
     }
 
     /* Navigation even smaller */
@@ -792,33 +792,38 @@ body {
 
     /* Divider */
     .divider {
-        margin: 3rem 0;
+        margin: 2rem 0;
+    }
+
+    .PhotoGallery-section .divider,
+    .minigames-section .divider {
+        margin-bottom: 1rem;
     }
 
     /* Top section padding */
     .top-section {
         padding-bottom: 1.5rem;
     }
+}
 
-    /* Hearts smaller on mobile */
-    .heart {
-        width: 15px;
-        height: 15px;
-    }
+/* Hearts smaller on mobile */
+.heart {
+    width: 15px;
+    height: 15px;
+}
 
-    .heart::before,
-    .heart::after {
-        width: 15px;
-        height: 15px;
-    }
+.heart::before,
+.heart::after {
+    width: 15px;
+    height: 15px;
+}
 
-    .heart::before {
-        top: -7.5px;
-    }
+.heart::before {
+    top: -7.5px;
+}
 
-    .heart::after {
-        left: -7.5px;
-    }
+.heart::after {
+    left: -7.5px;
 }
 
 /* Quiz Phrases */

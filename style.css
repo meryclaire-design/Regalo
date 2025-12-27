@@ -569,15 +569,255 @@ body {
     background: #000;
 }
 
-/* Mobile */
+/* Tablet and Mobile Responsive Styles */
 @media (max-width: 768px) {
+
+    /* Hero title responsive */
+    .hero-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        padding: 0 1rem;
+    }
+
+    /* Section text */
+    .section-text {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        padding: 0 1rem;
+    }
+
+    /* Section title */
+    .section-title {
+        font-size: 1.3rem;
+        padding: 0 1rem;
+    }
+
+    /* Photo gallery responsive */
+    .carousel-slide {
+        width: 250px;
+    }
+
+    .carousel-slide img {
+        height: 250px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-250px * 11 - 2rem * 11));
+        }
+    }
+
+    /* Grid container */
     .grid-container {
         grid-template-columns: 1fr;
     }
 
+    /* Footer */
     .footer {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    /* Navigation */
+    .main-nav {
+        font-size: 0.7rem;
+    }
+
+    .main-nav a {
+        margin: 0 0.8rem;
+    }
+
+    /* Quiz elements */
+    .phrases-container {
+        padding: 0 1rem;
+    }
+
+    .quiz-label {
+        font-size: 0.9rem;
+    }
+
+    .quiz-input {
+        font-size: 0.9rem;
+        min-width: 150px;
+    }
+
+    /* Buttons */
+    .cta-button {
+        padding: 0.8rem 2rem;
+        font-size: 0.7rem;
+    }
+
+    /* Modal */
+    .modal-content {
+        padding: 2rem;
+        width: 95%;
+    }
+}
+
+/* Mobile Phone Specific (smaller screens) */
+@media (max-width: 480px) {
+
+    /* Hero title even smaller for phones */
+    .hero-title {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    /* Section text smaller */
+    .section-text {
+        font-size: 0.8rem;
+        line-height: 1.5;
+        max-width: 100%;
+    }
+
+    /* Section title smaller */
+    .section-title {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Photo gallery smaller for phones */
+    .carousel-slide {
+        width: 200px;
+        margin-right: 1.5rem;
+    }
+
+    .carousel-slide img {
+        height: 200px;
+    }
+
+    .photo-caption {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-200px * 11 - 1.5rem * 11));
+        }
+    }
+
+    /* Section padding reduction */
+    .content-wrapper {
+        padding: 4rem 1rem;
+    }
+
+    /* Navigation even smaller */
+    .main-nav {
+        font-size: 0.6rem;
+        padding: 1.5rem 0;
+    }
+
+    .main-nav a {
+        margin: 0 0.5rem;
+    }
+
+    /* Grid items */
+    .grid-item {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .item-title {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .item-subtitle {
+        font-size: 0.8rem;
+    }
+
+    /* Quiz elements for phones */
+    .phrases-container {
+        padding: 0 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .quiz-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .quiz-label {
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+
+    .quiz-input {
+        font-size: 0.85rem;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    /* Buttons smaller */
+    .cta-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.65rem;
+        letter-spacing: 1px;
+    }
+
+    /* Modal for phones */
+    .modal-content {
+        padding: 1.5rem;
+        width: 95%;
+    }
+
+    .modal-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .login-form input {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .login-form button {
+        padding: 10px;
+        font-size: 0.75rem;
+    }
+
+    /* Divider */
+    .divider {
+        margin: 3rem 0;
+    }
+
+    /* Top section padding */
+    .top-section {
+        padding-bottom: 1.5rem;
+    }
+
+    /* Hearts smaller on mobile */
+    .heart {
+        width: 15px;
+        height: 15px;
+    }
+
+    .heart::before,
+    .heart::after {
+        width: 15px;
+        height: 15px;
+    }
+
+    .heart::before {
+        top: -7.5px;
+    }
+
+    .heart::after {
+        left: -7.5px;
     }
 }
 

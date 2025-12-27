@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'q6': ['the butt', 'booty', 'The butt', 'Booty'],
         'q7': ["i'm just round", "i am just round", "just round", "I'm just round", "I am just round", "Just round"],
         'q8': ['smol', 'small', 'Smol', 'Small'],
-        'q9': ['leccarmi', 'Leccarmi'],
+        'q9': ['leccarmi', 'Leccarmi', 'leccarti', 'Leccarti'],
         'q10': ['posare la tua guancetta sulla mia', 'mettere la tua guancetta sulla mia', 'posare la mia guancetta sulla tua',
             'mettere la mia guancetta sulla tua', 'Posare la tua guancetta sulla mia', 'Mettere la tua guancetta sulla mia',
             'Posare la mia guancetta sulla tua', 'Mettere la mia guancetta sulla tua'],

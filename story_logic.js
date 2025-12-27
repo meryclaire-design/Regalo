@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Story Text
         const textPara = document.createElement('p');
         textPara.className = 'section-text';
-        textPara.style.fontSize = '1.2rem';
+        textPara.style.fontSize = '0.9rem';
         textPara.style.marginBottom = '1.5rem';
         textPara.style.textAlign = 'left';
         textPara.textContent = node.text;

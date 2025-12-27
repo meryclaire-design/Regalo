@@ -794,15 +794,14 @@ body {
     }
 
     .divider {
-        margin: 1rem 0 0.2rem 0;
-        /* Reduced margin below divider */
+        margin: 1rem 0 0.5rem 0;
+        /* Slightly increased margin below divider */
     }
 
     .PhotoGallery-section .divider,
     .minigames-section .divider {
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.8rem;
     }
-
 
 
     /* Top section padding */
